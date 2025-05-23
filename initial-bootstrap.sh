@@ -22,7 +22,7 @@ CURRENT_USER=$(whoami)
 
 echo "1. Installing necessary packages"
 
-sudo xbps-install -y git fish-shell xtools-minimal eza nano libspa-bluetooth tlp tlp-rdw btop noto-fonts-emoji zramen
+sudo xbps-install -y git fish-shell xtools-minimal eza nano libspa-bluetooth tlp tlp-rdw btop noto-fonts-emoji zramen fcitx5 fcitx5-chinese-addons fcitx5-configtool
 
 if [ $? -ne 0 ]; then
 
